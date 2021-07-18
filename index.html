@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>yellow</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div id="container" class="noselect">
+
+    <h1 id="title"></h1>
+
+    <div id="content"></div>
+
+    <div id="pagination" unselectable="on"></div>
+
+    <div id="bookmark_container">
+    </div>
+
+  </div>
+  <div id="cursor" class="inactive"></div>
+
+  <div id="notes" class="hidden">
+
+    <div id="notes_content"></div>
+    
+    <div id="bookmark_controls">
+      <button onmouseover="hover(this)" onmouseout="hover()" onclick="interact()">interact</button>
+      <button onmouseover="hover(this)" onmouseout="hover()" onclick="compare()">compare</button>
+      <button onmouseover="hover(this)" onmouseout="hover()" onclick="note()">bookmark</button>
+    </div>
+
+  </div>
+
+</body>
+
+<script type="text/javascript" src="type.js"></script>
+<script type="text/javascript" src="highlighter.js"></script>
+<script type="text/javascript" src="mysterymachine.js"></script>
+<script type="text/javascript" src="pages.js"></script>
+<script type="text/javascript" src="v.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</html>
